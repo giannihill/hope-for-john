@@ -266,6 +266,8 @@ h2 { font-size: clamp(1.8rem, 1.45rem + 1.6vw, 2.5rem); line-height: 1.15; margi
   .photo-stack { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 1.8rem; }
   .hero-badge { left: 8px; bottom: -14px; }
+  .qr-row { flex-direction: column; align-items: center; gap: 10px; }
+  .qr-note { text-align: center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
