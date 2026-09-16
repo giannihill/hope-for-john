@@ -65,7 +65,7 @@ a:hover { color: var(--teal); }
 /* ---------- Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(250, 247, 242, .88);
+  background: rgba(250, 247, 242, .96);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
@@ -229,8 +229,9 @@ h2 { font-size: clamp(1.8rem, 1.45rem + 1.6vw, 2.5rem); line-height: 1.15; margi
 .site-footer h3 { font-size: .82rem; letter-spacing: .13em; text-transform: uppercase; color: #8fb3ae; margin: 0 0 .7rem; font-family: var(--font-body); font-weight: 700; }
 .site-footer a { color: #ffffff; text-decoration-color: rgba(255,255,255,.4); }
 .site-footer a:hover { color: var(--coral); }
-.footer-brand img { margin-bottom: .9rem; }
-.footer-tagline { font-family: var(--font-display); font-style: italic; color: #e8f1ef; margin: 0; }
+.footer-mark { margin-bottom: .6rem; }
+.footer-name { font-family: var(--font-display); font-weight: 600; font-size: 1.35rem; color: #ffffff; margin: 0 0 .18rem; }
+.footer-tagline { font-family: var(--font-display); font-style: italic; color: #e8f1ef; margin: 0; font-size: 1.02rem; }
 .footer-col p { margin: 0 0 .8rem; font-size: .98rem; }
 .footer-small { font-size: .85rem !important; color: #9dbab4; }
 .footer-bottom {
