@@ -164,7 +164,7 @@ h2 { font-size: clamp(1.8rem, 1.45rem + 1.6vw, 2.5rem); line-height: 1.15; margi
 .photo-stack figcaption { font-size: .86rem; color: var(--muted); padding: .6rem .95rem .7rem; }
 
 /* ---------- Help cards ---------- */
-.help-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 2.2rem; align-items: start; }
+.help-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 2.2rem; }
 .card {
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
   box-shadow: var(--shadow-soft);
@@ -177,7 +177,7 @@ h2 { font-size: clamp(1.8rem, 1.45rem + 1.6vw, 2.5rem); line-height: 1.15; margi
   display: flex; align-items: center; justify-content: center; margin-bottom: .9rem;
 }
 .icon svg { width: 25px; height: 25px; }
-.step { font-size: .76rem !important; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--coral-dark) !important; margin: 0 0 .2rem !important; }
+.step { font-size: .76rem !important; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #b04a42 !important; margin: 0 0 .2rem !important; }
 
 .qr-row { display: flex; gap: 14px; align-items: center; background: var(--teal-tint); border: 1px dashed var(--teal-line); border-radius: 14px; padding: .8rem; margin: 0 0 1rem; }
 .qr { border-radius: 8px; background: #fff; flex: 0 0 auto; }
@@ -193,10 +193,11 @@ h2 { font-size: clamp(1.8rem, 1.45rem + 1.6vw, 2.5rem); line-height: 1.15; margi
 .sample-text .site-url { word-break: break-all; color: var(--teal-dark); }
 
 /* ---------- Facts / FAQ ---------- */
-.stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 2rem 0 2.8rem; }
+.stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 2rem 0 .9rem; }
 .stat { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 1.15rem 1.3rem; box-shadow: var(--shadow-soft); }
 .stat b { display: block; font-family: var(--font-display); font-size: 1.9rem; font-weight: 700; color: var(--teal-dark); line-height: 1.1; margin-bottom: .3rem; }
 .stat span { font-size: .9rem; color: var(--muted); }
+.stats-note { margin: 0 0 2.6rem; font-size: .85rem; color: var(--muted); }
 .faq-wrap { max-width: 780px; }
 .faq-heading { font-size: 1.15rem; margin: 0 0 .4rem; }
 .faq-wrap details { border-bottom: 1px solid var(--line); }
